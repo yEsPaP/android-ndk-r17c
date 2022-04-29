@@ -30,7 +30,7 @@ ifndef NDK_TOOLCHAIN
     TARGET_TOOLCHAIN_LIST := \
         $(strip $(sort $(NDK_ABI.$(TARGET_ARCH_ABI).toolchains)))
 
-    ifneq ($(words $(TARGET_TOOLCHAIN_LIST)),2)
+    ifneq ($(words $(TARGET_TOOLCHAIN_LIST)),3)
         $(call __ndk_error,Expected two items in TARGET_TOOLCHAIN_LIST, \
             found "$(TARGET_TOOLCHAIN_LIST)")
     endif
