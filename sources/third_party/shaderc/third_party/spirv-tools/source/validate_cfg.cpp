@@ -27,6 +27,8 @@
 #include <utility>
 #include <vector>
 
+#include <limits>
+
 #include "spirv_validator_options.h"
 #include "val/basic_block.h"
 #include "val/construct.h"

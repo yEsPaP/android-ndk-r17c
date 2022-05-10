@@ -26,7 +26,7 @@
  *
  * For a local development build of the NDK, this is -1.
  */
-#define __NDK_BUILD__ 4988734
+#define __NDK_BUILD__ 0
 
 /**
  * Set to 1 if this is a canary build, 0 if not.
